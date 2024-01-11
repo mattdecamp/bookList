@@ -1,0 +1,13 @@
+{
+    "title": "Hannah's Book List",
+    "description": "A running list of books I've read.",
+    "url": "https://eleventonia.mattdecamp.com",
+    "website": "https://mattdecamp.com",
+    "authorName": "Matt DeCamp",
+    "authorEmail": "matt@mattdecamp.com",
+    "yearCreated": 2023,
+    "copyright": "2021 to present",
+    "socialImage": "/",
+    "locale": "en_us",
+    "lang": "en"
+}

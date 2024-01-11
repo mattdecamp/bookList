@@ -1,0 +1,30 @@
+---
+layout: base
+title: Books
+permalink: '/books/index.html'
+heading: My Book Feed
+---
+
+<!-- 
+  This is where the book feed will go
+-->
+<article>
+
+  <h1>Books</h1>
+  <ul id="book--list">
+    {% for book in books %}
+    <li>
+      <a href="{{book.buyLink}}">
+        <picture>
+          <img src="{{book.coverImage}}" alt="Book cover for {{book.title}}">
+        </picture>
+      </a>
+      <h2 class="book--title">{{ book.title }}</h2>
+      <h3 class="book--author">{{ book.authorFn }} {{ book.authorLn }}</h3>
+      {% if book.finished %}
+      <p class="book--status">Finished on {{book.dateRead | dateFilter}}</p>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</article>

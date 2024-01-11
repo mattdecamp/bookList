@@ -1,0 +1,36 @@
+[
+  {
+    "_createdAt": "2023-07-06T19:12:40Z",
+    "_id": "b4083c5e-19d6-4e07-a210-e0d38a8c5675",
+    "_rev": "SMvezCGH1BJ44jrlhzPHod",
+    "_type": "book",
+    "_updatedAt": "2023-07-06T19:12:40Z",
+    "authorFn": "Becky",
+    "authorLn": "Chambers",
+    "buyLink": "https://bookshop.org/a/93821/9781250236234",
+    "coverImage": "https://images-us.bookshop.org/ingram/9781250236234.jpg",
+    "finished": false,
+    "isbn": "9781250236234",
+    "pages": 160,
+    "publisher": "Tordotcom",
+    "title": "A Prayer for the Crown-Shy: A Monk and Robot Book"
+  },
+  {
+    "_createdAt": "2023-06-26T19:04:44Z",
+    "_id": "7053eeab-9237-42ff-b323-7322312623e0",
+    "_rev": "af7My55cfVwbGQBrRWHLk7",
+    "_type": "book",
+    "_updatedAt": "2023-07-06T19:13:20Z",
+    "authorFn": "Mick",
+    "authorLn": "Herron",
+    "buyLink": "https://bookshop.org/a/93821/9781641293372",
+    "coverImage": "https://images-us.bookshop.org/ingram/9781641293372.jpg",
+    "dateRead": "2023-07-03T01:57:00.000Z",
+    "finished": true,
+    "isbn": "9781641293372",
+    "pages": 384,
+    "publisher": "Soho Crime",
+    "title": "Bad Actors",
+    "yearPub": "2023-06-30T01:57:00.000Z"
+  }
+]

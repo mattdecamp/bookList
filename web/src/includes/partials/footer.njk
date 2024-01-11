@@ -1,0 +1,20 @@
+<footer role="contentinfo">
+  <div id="footer--container">
+    <div id="footer--left">
+      <a href="{{ site.githubUrl }}">
+        {{ site.title | lower }} 
+      </a>
+    </div>
+    <div id="footer--middle">
+      {% if site.website %}
+      <a href="{{ site.website }}" title="My Website">
+        {% svgsprite %}
+        {% icon "home" %}
+      </a>
+      {% endif %}
+    </div>
+    <div id="footer--right"> 
+      &copy; {{ site.yearCreated }} to present
+    </div>
+  </div>
+</footer>
